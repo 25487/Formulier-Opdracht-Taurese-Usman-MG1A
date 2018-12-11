@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>School Formulier</title>
+  <meta name="author"  content="Taurese Usman">
+</head>
+
+<body>
+  <h1>Vragen over jouw Opleiding</h1>
+  <form action="http://bla.hosts.ma-cloud.nl/pop.php">
+  <link rel="stylesheet" href="formulieren.css">
+
+
+<h2>Wat vind jij van je Opleiding?</h2>
+    Je naam: <input type="text" name="Naam">
+    <select class="" name="Klas">
+      <option value="MG1A">MG1A</option>
+      <option value="MG1B">MG1B</option>
+      <option value="MG1C">MG1C</option>
+      <option value="MG1D">MG1D</option>
+    </select>
+
+    <h4>
+    Hoe positief ben je op dit moment over je opleiding?
+    Op een schaal van 1 tot 5</h4>
+    <br>
+    1<input type="radio" name="Cijfer" value="1" checked="">
+    2<input type="radio" name="Cijfer" value="2">
+    3<input type="radio" name="Cijfer" value="3">
+    4<input type="radio" name="Cijfer" value="4">
+    5<input type="radio" name="Cijfer" value="5">
+
+
+    <h4>Wat ga je kiezen?</h4>
+
+    <br>
+    Media Developer<input type="radio" name="Opleiding" value="MediaDeveloper" checked="">
+    Game Developer<input type="radio" name="Opleiding" value="GameDeveloper">
+    Andere Opleiding<input type="radio" name="Opleiding" value="AndereOpleiding">
+
+
+    <h4>Wat doe jij liever in de les</h4>
+    <br>
+
+    Slapen<input type="radio" name="Activiteit" value="Slapen" checked="">
+    Werken aan je code<input type="radio" name="Activiteit" value="Werken aan je code">
+    Opletten<input type="radio" name="Activiteit" value="Opletten">
+    Gamen<input type="radio" name="Activiteit" value="Gamen">
+    Fortnite Dances doen<input type="radio" name="Activiteit" value="Fortnite Dances doen">
+
+    <h4>Hoeveel Studiepunten heb je ongeveer?</h4>
+    <br>
+
+    5<input type="radio" name="Studiepunten" value="5" checked="">
+    10<input type="radio" name="Studiepunten" value="10">
+    15<input type="radio" name="Studiepunten" value="15">
+
+
+    <h4>Eigen toevoeging</h4>
+    Eigen toevoeging:<input type="text" name="Eigen_toevoeging">
+    <br>
+
+  <br>
+  <input type="submit" value="Stuur formulier op">
+
+  </form>
+
+  <div id="validatie">
+    <a href="http://validator.w3.org/check?uri=referer" target="_blank">
+        <img src="valid-html5-blue.png" alt="Valide HTML5"></a>
+</div>
+<div id="validatie_css">
+  <a href="http://jigsaw.w3.org/css-validator/check/referer">
+     <img src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+            alt="Valide CSS!"/>
+          </a>
+          </div>
+
+
+</body>
+
+</html>
